@@ -36,9 +36,9 @@ const Bio = () => {
         className="bio-avatar"
         layout="fixed"
         formats={["auto", "webp", "avif"]}
-        src="../images/profile-pic.png"
-        width={100}
-        height={100}
+        src="../images/profile_pic3.jpeg"
+        width={320}
+        height={300}
         quality={95}
         alt="Profile picture"
       />
@@ -47,9 +47,7 @@ const Bio = () => {
           <p className="aboutName">
             개발하는 동탄청년 민정후의 기술 블로그입니다.
           </p>
-          <p>
-            Frontend Engineer @ Tmon (march.03.2021).
-          </p>
+          <p>Frontend Engineer @ Tmon (march.03.2021).</p>
         </div>
       )}
     </div>
