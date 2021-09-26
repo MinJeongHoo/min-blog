@@ -48,7 +48,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d src",
+    "deploy": "gatsby build && gh-pages -d public -b master -r 'git@github.com:MinJeongHoo/min-blog.git'",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
