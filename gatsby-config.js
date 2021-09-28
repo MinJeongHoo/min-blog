@@ -3,9 +3,9 @@ module.exports = {
     title: `개발하는 동탄 청년`,
     author: {
       name: `민정후 Ussop`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      summary: `하루하루 1% 성장하는 동탄 거주 개발자 민정후입니다.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `프론트엔드 3년차 개발자입니다.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
       github: `kylemathews`,
@@ -113,8 +113,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Min Jeong Hoo Blog`,
+        short_name: `JeongHoo Blog`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
